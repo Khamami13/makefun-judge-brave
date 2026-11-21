@@ -20,7 +20,7 @@ itself is slow.
 node main.ts
 ```
 
-Writes `/output/entry.txt` (271 characters, UTF-8). Node 22, standard library
+Writes `/output/entry.txt` (276 characters, UTF-8). Node 22, standard library
 only, no network. Deterministic: the same bytes on every run.
 
 ---

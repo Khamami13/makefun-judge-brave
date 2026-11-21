@@ -20,10 +20,10 @@ import { mkdirSync, writeFileSync, chmodSync } from "node:fs";
 import { join } from "node:path";
 
 const TEXT =
-  "You have read a thousand hurried texts today, and this one will not hurry you. " +
-  "Rain on the window. A kettle warming. " +
+  "You have read a thousand hurried texts, and this one will not hurry you. " +
+  "Rain on the window, slow as breath. A kettle warming. " +
   "Nothing to decide until the steam has risen and settled. " +
-  "The slow minute is yours. " +
+  "The minute is yours. " +
   "The next thing will wait — and so will you, steadier for having waited.";
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
